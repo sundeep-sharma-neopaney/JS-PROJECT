@@ -1,0 +1,13 @@
+{
+    "name":"Math Quiz",
+    "short_name":"mQuiz",
+    "start_url":".",
+    "background_color":"white",
+    "theme_color":"red",
+    "display":"standalone",
+    "icons":[{
+        "src":"./mathQuiz.png",
+        "sizes":"144x144",
+        "type":"image/png"
+    }]
+}

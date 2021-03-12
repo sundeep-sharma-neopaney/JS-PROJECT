@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color"content="red">
+    <title>Math Quiz</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="manifest" href="manifest.json">
+</head>
+
+<body>
+    <div class="container">
+        <img src="mathQuiz.png" alt="Math Quiz"height="150px"width="150px">
+
+        <div class="quiz">
+
+            <div class="qs">
+                <span class="status">Solve it</span>
+                <span>
+                    <span class="qst"></span>
+                    <span class="sign">= ?</span>
+                </span>
+            </div>
+            <div class="submitAns">
+
+                <input type="number" class="input" placeholder="Type answer here">
+                <input type="submit" class="submit" value="submit">
+                <button class="next">Play Next</button>
+                <button class="score" disabled>Score : 0</button>
+                <span class="reset">Reset Score</span>
+            </div>
+        </div>
+
+
+    </div>
+</body>
+<script src="js/mathQuiz.js"></script>
+<script src="js/index.js"></script>
+
+
+</html>
