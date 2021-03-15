@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    font-size:large;
+    color: white;
+    font-family: monospace;
+    font-weight: 100;
+ 
+}
+.container{
+    max-width: 100vmin;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 20px;
+    overflow-x: hidden;
+    background-image: linear-gradient(teal, green, blue);
+    box-shadow: 0px 0px 10px rgb(0,0,0,1);
+   
+}
+.wordFieldset{
+   
+    height: fit-content;
+    box-shadow: 0px 0px 10px rgb(110, 107, 107);
+    z-index: 11;
+    backdrop-filter: blur(100px);
+    overflow-x: hidden;
+   
+  
+  
+   
+}
+.save{
+    height: 20px;
+    padding: 2px;
+    background-color: darkcyan;
+}
+.innerdiv, .outerdiv{
+    display: flex;
+    flex-direction: column;
+
+   
+}
+legend>span{
+    background-color: rebeccapurple;
+    border: 0.25vmin solid green;
+    border-radius: 5px;
+    margin: 3px;
+    padding: 2px;
+    font-size:18px ;
+   visibility: hidden;
+}
+legend{
+    margin-bottom: 10px;
+}
+textarea{
+    height: 20vmax;
+    width: 100%;
+    resize: vertical;
+    background-color: darkcyan;
+
+}
+input[type="file"]{
+    width: 100%;
+    height: 30px;
+    background-color: darkcyan;
+}
+.division{
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+   
+   
+}
+.outerdiv{
+   
+    height: 100vmin;
+    margin: auto;
+   
+    align-items: center;
+}
+
+.innerdiv{
+ 
+    height: 100%;
+   
+}
+.findreplace{
+    display: flex;
+    flex-wrap: nowrap;
+    height: 100%;
+    width:250px;
+}
+.findreplace input,
+.tocapital input,
+.tosmall input,
+.addafter input,
+.addbefore input,
+.firstcapital input,
+.firstsmall input,
+.singlecount input,
+.addbefore button{
+width: 50px;
+height: 24px;
+margin: 2px;
+background-color: darkcyan;
+border-radius: 3px;
+color: whitesmoke;
+}
+.findreplace button,
+.tocapital button,
+.tosmall button,
+.addafter button,
+.addbefore button,
+.firstcapital button,
+.firstsmall button,
+.singlecount button{
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+    outline: none;
+    text-align: center;
+   padding: 0.05px;
+    margin: 1px;
+    background-color: brown;
+    color: cornsilk;
+}
+

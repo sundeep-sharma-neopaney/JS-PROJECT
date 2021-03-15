@@ -1,0 +1,14 @@
+{
+    "name":"Word Counter",
+    "short_name":"WC",
+    "theme_color":"darkcyan",
+    "background_color":"teal",
+    "display":"standalone",
+    "orientation":"portrait",
+    "start_url":".",
+    "icons":[{
+        "sizes":"144x144",
+        "type":"image/png",
+      "src":  "w.png"
+    }]
+}

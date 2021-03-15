@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Counter App</title>
+    <meta name="theme-color"content="darkcyan">
+    <link rel="shortcut icon" href="w.png" type="image/png">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="manifest" href="manifest.json">
+</head>
+
+<body>
+    <div class="container">
+        
+           
+                <fieldset class="wordFieldset">
+                    <legend class="result">
+                        <span class="b1">selectionWords : </span><span class="sword">0</span><br>
+                        <span class="b2">selectionCharacter : </span><span class="swchar">0</span><br>
+                        <span class="b3">selectionLength : </span><span class="slen">0</span>
+                        <br>
+                        <span class="b4">selectionNaW : </span><span class="sspace">0</span>
+                        <br>           
+                        <span class="b5">Similar : </span><span class="similarO">0</span>
+                        <br>
+                        <span class="b4">NaW : </span><span class="space">0</span>
+                        <br>
+                        <span class="b3">Length : </span><span class="len">0</span>
+                        <br>
+                        <span class="b2">Character : </span><span class="wchar">0</span>
+                        <br>
+                        <span class="b1">Words : </span><span class="word">0</span>
+                    </legend>
+                    <div class="division">
+                        <div class="innerdiv">
+                    <input type="file">
+                    <textarea placeholder="You can upload .txt files here using above input field"></textarea>
+                    <a href=""class="save">Save .txt</a>
+                </div>
+                
+                
+                <div class="outerdiv"style="width:100%">
+                    
+                    <fieldset style="width: fit-content;">
+                        
+                        <legend>Do More From Here</legend>
+                        <div class="findreplace">
+                            Find: <input type="text"class="find">
+                            Replace: <input type="text" class="replace">
+                            <button>✔</button>
+                        </div>
+                        <div class="addafter">
+                            Find: <input type="text"class="add1">
+                            Add after: <input type="text" class="addwith1">
+                            <button>✔</button>
+                        </div>
+                        <div class="addbefore">
+                            Find: <input type="text"class="add2">
+                            Add before: <input type="text" class="addwith2">
+                            <button>✔</button>
+                        </div>
+                        <div class="firstcapital">
+                            Find: <input type="text"class="add3">
+                            firstCapital
+                            <button>✔</button>
+                        </div>
+                        <div class="firstsmall">
+                            Find: <input type="text"class="add4">
+                            firstSmall
+                            <button>✔</button>
+                        </div>
+                        <div class="tocapital">
+                            Find: <input type="text"class="find1">
+                            toCapital
+                            <button>✔</button>
+                        </div>
+                        <div class="tosmall">
+                            Find: <input type="text"class="find2">
+                            toSmall
+                            <button>✔</button>
+                        </div>
+                        <div class="singlecount">
+                          
+                            Similar count : <input type="text" class="similar">
+                            <button>✔</button>
+                        </div>
+                    </fieldset>
+                </div>
+                </div>
+                A basic javaScript project by <a href="">Sundeep sharma</a>
+                </fieldset>
+          
+     
+    </div>
+
+</body>
+
+
+<script src="./js/wordCounter.js"></script>
+<script src="./js/index.js"></script>
+
+
+
+</html>
